@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .button-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+
+  .widget-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+    background-color: #f4f1ea; /* Creamy paper color from the cover */
+    border: 1px solid #d4c5b3;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+
+  .widget-button:hover {
+    background-color: #ede9df;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    border-color: #bfa07a;
+  }
+
+  .label {
+    color: #8c7355; /* Muted gold/bronze font */
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .subtext {
+    color: #5a4a3a;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+</style>
+</head>
+<body>
+
+<div class="button-container">
+  <a href="https://www.notion.so/a758e1e6cb8b498a9d52503d9b440b3a?v=8d006429a94944628090f91be078565e&source=copy_link" class="widget-button" target="_top">
+    <span class="label">Today</span>
+    <span class="subtext">Daily Rounds</span>
+  </a>
+</div>
+
+</body>
+</html>
+
